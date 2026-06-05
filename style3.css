@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.hero-shadow {
+    position: absolute;
+    top:0;
+    width: 100%;;
+    height: 100%;;
+    z-index:-1;
+background: rgba(0,0,0,.6);
+}
+.navbar {
+    font-size: 2.4rem;
+    width: 100%;
+    position: fixed;
+    left:0px;
+    z-index:2;
+}
+.Navbar2 {
+    font-size: 2.4rem;
+}
+@media(max-width:1200px){
+    .obraz1{
+        position: absolute;
+        top:-20px;
+        left:360px;
+        z-index:2;
+    }
+     .navbar {
+        font-size: 2rem;
+    }
+    .tekst1 {
+        font-size: 1rem;
+        position: absolute;
+        right:50px;
+        padding:50px;
+    }
+    .hero-shadow {
+    position: absolute;
+    top:0;
+    left:-56px;
+    width:100vw;
+    height:100vh;
+background: rgba(0,0,0,.6);
+    }
+.Navbar2{
+    font-size: 1.4rem;
+}
+}
+
+
+.p1 {
+    position: relative;
+}
+
+.container4 {
+    width: 100vw;
+    height:200px;
+    background: rgba(0,0,0,.9);
+    color:white;
+    position: relative;
+
+}
+.carousel-img-one {
+     background-image: url(../../../Downloads/uid_56bae8e199328adae19addabd856d6b51589532481600_width_1200_play_0_pos_0_gs_0_height_678_zinedine-zidane-byl-bohaterem-finalu-ligi-mistrzow-2002-fot-getty-images.jpg);
+    background-size: cover;
+    background-position:center;
+    width: 100%;
+    height: 600px;
+}
+
+
+
+
+
+
+.container8 {
+    background-image: url(../../../Downloads/uid_56bae8e199328adae19addabd856d6b51589532481600_width_1200_play_0_pos_0_gs_0_height_678_zinedine-zidane-byl-bohaterem-finalu-ligi-mistrzow-2002-fot-getty-images.jpg);
+    width: 100%;
+    height:600px;
+    background-size: cover;
+    background-position: center;
+}
+
+.container9 {
+    background-image: url(../../../Downloads/uid_dd8ead7185e3f31507f49205c88975a81584769771956_width_1200_play_0_pos_0_gs_0_height_678_ronaldinho-fot-getty-images.jpg);
+    width: 100%;
+    height:600px;
+    background-size: cover;
+    background-position: top;
+}
+
+.tekst4 {
+    position: absolute;
+    top:250px;
+}

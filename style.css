@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.hero-shadow {
+    position: absolute;
+    top:0;
+    width: 100%;;
+    height: 100%;;
+    z-index:-1;
+background: rgba(0,0,0,.6);
+}
+.navbar {
+    font-size: 2.4rem;
+    width: 100%;
+    position: fixed;
+    left:0px;
+    z-index:10;
+}
+.Navbar2 {
+    font-size: 2.4rem;
+}
+.obraz1 {
+    position: relative;
+    width:50px;
+    left:0px;
+    text-align: center;
+}
+.tekst1 {
+    position: absolute;
+    left:60px;
+}
+.carousel-item {
+    height:600px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.carousel-img-one {
+    background-image: url("newunion_org-jersey-5457156_1920 (2).jpg");
+}
+.carousel-img-two {
+    background-image: url("newunion_org-jersey-5457146_1920.jpg");
+}
+.carousel-img-three {
+    background-image: url("newunion_org-jersey-5457183_1920 (1).jpg");
+}
+@media(max-width:1200px){
+    .obraz1{
+        position: absolute;
+        top:-20px;
+        left:360px;
+        z-index:2;
+    }
+     .navbar {
+        font-size: 2rem;
+    }
+    .tekst1 {
+        font-size: 1rem;
+        position: absolute;
+        right:50px;
+        padding:50px;
+    }
+    .hero-shadow {
+    position: absolute;
+    top:0;
+    left:-56px;
+    width:100vw;
+    height:100vh;
+background: rgba(0,0,0,.6);
+    }
+.Navbar2{
+    font-size: 1.4rem;
+}
+}
+.container1 {
+    
+    height:300px;
+    display: flex;
+    flex-direction: column;
+    flex: content;
+}
+.container2 {
+    background-image: url("assy-european-football-championship-1420475.jpg");
+}
+.obraz5 {
+    width: 100%;
+    height:40vw;
+    background-size: cover;
+    background-position: center;
+}
+.obraz6 {
+    width:400px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    position: relative;
+    top: 0vh;
+    left: 0%;;
+}
+.tekst2 {
+    position: relative;
+    top:-20vh;
+    color:white;
+}
+.container4 {
+    width: 100vw;
+    height:200px;
+    background: rgba(0,0,0,.9);
+    color:white;
+    position: relative;
+
+}
+@media(min-width:1200px){
+   .obraz6 {
+    width:400px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    position: relative;
+    top: -40vh;
+    left: 90%;;
+    
+   }
+}
+.obraz8 {
+    width: 100%;
+    height:700px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 150px;
+}
+.obraz9 {
+    width: 300px;
+    transform: skew(-20deg);
+    filter: blur(.45px)
+    ;
+}
+.obraz10 {
+    width:300px;
+ transform: skew(-20deg);
+    filter: blur(.45px)
+}
+.siema9 {
+    background: rgb(248,248,248);
+}
+h3{
+    padding-bottom: 0.5em;
+    font-size:2.4rem;
+    font-weight: bold;
+    text-decoration:underline #008a;
+    text-transform: uppercase;
+    transform: skew(-15deg);
+    filter: blur(.35px);
+}
+
+.span2 {
+    padding: 2em;
+    transform: skew(-30deg);
+    filter: blur(.45px);
+}
+.row1 {
+    width:300px;
+    height:200px;
+
+}
+
+.container9{
+    background-image: url(../../../Downloads/affa936e2712ac34d916ccdba2f9.jpeg);
+    width: 100%;
+    height:500px;
+    background-size: cover;
+    background-position: top;
+}
