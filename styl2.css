@@ -83,3 +83,7 @@ background: rgba(0,0,0,.6);
     background-size: cover;
     background-position: center;
 }
+
+.obraz7 {
+    background-image: url(https://www.svgrepo.com/show/349198/vertical-navy-red-football-shirt.svg);
+}
